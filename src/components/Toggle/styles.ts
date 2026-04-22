@@ -10,10 +10,9 @@ export const ToggleLabel = styled.span`
     color: ${props => props.theme.colors.white};
 `;
 
-export const ToggleSelector = styled(Switch).attrs<ReactSwitchProps>(
-    ({ theme }) => ({
-        onColor: theme.colors.info,
-        offColor: theme.colors.warning
-    }))<ReactSwitchProps>`
-    margin: 0 7px;
+export const ToggleSelector = styled(Switch).attrs(props => ({
+  onColor: props.theme.colors.info,
+  offColor: props.theme.colors.warning
+}))`
+  margin: 0 7px;
 `;

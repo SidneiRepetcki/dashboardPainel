@@ -15,9 +15,11 @@ const List: React.FC = () => {
 
     return ( 
         <div>
-            <ContentHeader title="Saídas" lineColor="#E44C4E">
-                <SelectInput options={options}/>
-            </ContentHeader>
+            <Container>
+                <ContentHeader title="Saídas" lineColor="#E44C4E">
+                    <SelectInput options={options}/>
+                </ContentHeader>
+            </Container>
         </div>
     );
 }

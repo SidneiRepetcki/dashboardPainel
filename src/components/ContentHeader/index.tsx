@@ -12,8 +12,6 @@ interface IContentHeaderProps {
     children: React.ReactNode;
 }
 
-
-
 const ContentHeader: React.FC<IContentHeaderProps> = ({
     title, lineColor, children
 }) => {
