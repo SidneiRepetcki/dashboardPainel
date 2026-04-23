@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Tag } from './styles';
 
 interface IHistoryFinanceCardProps {
     cardColor: string;
@@ -12,23 +12,21 @@ interface IHistoryFinanceCardProps {
 
 const HistoryFinanceCard: React.FC<IHistoryFinanceCardProps> = ({
     cardColor,
-    tagColor,    title,
+    tagColor,
+    title,
     subtitle,
     amount
 }) => {
-
-}
     return (
         <Container color={cardColor}>
-                <tag color={tagColor}/>
-                <div>
-                    <span>{title}</span>
-                    <small>{subtitle}</small>
-
-                </div>
-        
-      </Container>
+            <Tag color={tagColor} />
+            <div>
+                <span>{title}</span>
+                <small>{subtitle}</small>
+            </div>
+            <h3>{amount}</h3>
+        </Container>
     );
-}
-   
-  export default HistoryFinanceCard;
+};
+
+export default HistoryFinanceCard;
