@@ -30,6 +30,78 @@ const List: React.FC = () => {
                         subtitle="23/04/2026"
                         amount="R$ 130,00"
                     />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
+
+                    <HistoryFinanceCard
+                        cardColor="#313862"
+                        tagColor="#E44C4E"
+                        title="Conta de Luz"
+                        subtitle="23/04/2026"
+                        amount="R$ 130,00"
+                    />
                 </Content>
 
             </Container>
