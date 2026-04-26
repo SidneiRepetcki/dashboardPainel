@@ -1,49 +1,74 @@
-# dashboardPainel
-Criado um Dashboard usando React e Typescript, um painel visual que apresenta, de maneira centralizada, um conjunto de informações: indicadores e suas métricas. Essas informações podem ser tanto indicadores da área de TI como de Gestão Empresarial.
+# 📊 dashboardPainel
 
-# Getting Started with Create React App
+Dashboard desenvolvido com React e TypeScript, com foco na visualização de dados e indicadores.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto apresenta um painel interativo onde métricas são organizadas de forma centralizada, permitindo análise clara de informações da área de TI e Gestão Empresarial.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Objetivo do projeto
 
-### `npm start`
+Este projeto foi desenvolvido com o objetivo de praticar e evoluir habilidades em desenvolvimento front-end, com foco em:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Criação de interfaces modernas com React
+- Utilização de TypeScript no desenvolvimento
+- Organização de componentes reutilizáveis
+- Estruturação de dashboards interativos
+- Estilização com boas práticas de UI
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Tecnologias utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- TypeScript
+- Styled Components
+- JavaScript (ES6+)
+- Git & GitHub
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Visualização de indicadores financeiros
+- Filtros de movimentações (Recorrentes e Eventuais)
+- Interface de dashboard organizada e responsiva
+- Componentização reutilizável
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 Aprendizados
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Durante o desenvolvimento deste projeto, foi possível praticar:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Estruturação de projetos React
+- Uso de TypeScript em aplicações reais
+- Estilização de componentes com Styled Components
+- Organização de lógica de interface
+- Boas práticas de desenvolvimento front-end
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚀 Como rodar o projeto
 
-## Learn More
+```bash
+# clonar o repositório
+git clone https://github.com/SEU-USUARIO/dashboardPainel.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# acessar a pasta
+cd dashboardPainel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# instalar dependências
+npm install
+
+# rodar o projeto
+npm start
+
+---
+
+## 🚧 Melhorias futuras
+
+- [ ] Integração com API real
+- [ ] Novos gráficos e visualizações
+- [ ] Filtros avançados e mais interações
+- [ ] Otimização de performance da interface
